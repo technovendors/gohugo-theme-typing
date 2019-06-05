@@ -1,18 +1,4 @@
-<!DOCTYPE html>
-<html>
-<body>
-  <h1>Tests</h1>
-  {{ range first 10 .Data.Pages }}
-    {{ if eq .Type "tests"}}
-      <h1><a href={{ .Permalink }}>{{ .Title }}</a></h1>
-    {{ end }}
-  {{ end }}
-
-  <h1>pages</h1>
-  {{ range .Data.Pages }}
-    {{ if eq .Type "page" }}
-      <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-    {{ end }}
-  {{ end }}
-</body>
-</html>
+{{ define "main" }}
+  
+  <h1>hello</h1>
+{{ end }}
