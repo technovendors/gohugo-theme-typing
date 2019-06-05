@@ -1,0 +1,24 @@
+{
+  "name": "gohugo-theme-typing",
+  "version": "1.0.0",
+  "description": "Base Theme for typing sites",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/technovendors/gohugo-theme-typing.git"
+  },
+  "keywords": [
+    "hugo",
+    "gohugo",
+    "mytypespeed"
+  ],
+  "author": "ngoyal16",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/technovendors/gohugo-theme-typing/issues"
+  },
+  "homepage": "https://github.com/technovendors/gohugo-theme-typing#readme"
+}
